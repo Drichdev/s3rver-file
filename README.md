@@ -1,40 +1,85 @@
-## Extration de données avec S3
-### Systèmes de recupération des informations des fichiers excels et json avec remix js et serveur S3 avec aws-sdk
+# Data Extraction with S3
+
+## System for Extracting Data from Excel and JSON Files using Remix.js and an S3 Server with AWS SDK
+
+### Clone the Project
+
+To get started, clone the repository using the following command:
+
 ##
-- git clone récupération du projet
-##
+
     git clone [Lien du repo]
+
 ##
+
 ### `Configuration de remix`
-- Installation des dépendances
+
+### Install Dependencies
+
+Install the required dependencies for Remix:
+
 ##
+
     npm install
+
 ##
-- Lancer le projet
+
+### Run the Project
+
+Start the Remix project:
+
 ##
+
     npm run dev
+
 ##
-### `Configuration du serveur`
+
+### `Server Setup`
+
 ### Configuration du serveur en node js
-- Si vous avez choisi d'utilser node js pour la configuration comme serveur de donnée
-- Installation des dépendances
+
+- If you’ve chosen Node.js to configure the data server:
+
+Install the necessary dependencies:
+
 ##
+
     npm install
+
 ##
-- Lancer le projet
+
+Start the server:
+
 ##
-    npm run dev
+
+    node serve.js
+
 ##
+
 ### Configuration du serveur avec docker
-- Si vous avez choisi d'utilser docker pour la configuration du serveur  comme serveur de donnée
-- Téléchager les packages
+
+- If you’ve opted to use Docker for configuring the data server:
+
+Build the Docker images:
+
 ##
+
     docker-compose build
+
 ##
-- Lancer le container
+
+- Launch the container:
+
 ##
+
     docker-compose up -d
+
 ##
+
+### Extraction Results
+
+Below is an example of the results of the data extraction:
+
 <div align="center">
   <img src="./img/result.jpg" alt="Images de resultat" style="border-radius: 10px;">
 </div>
