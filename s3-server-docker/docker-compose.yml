@@ -6,6 +6,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "4568:4568"  # Le port local redirigé vers le port S3rver
+      - "4568:4568" 
     volumes:
       - ./data/s3-buckets:/app/s3-buckets  # Persiste les données des fichiers
