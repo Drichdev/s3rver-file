@@ -36,7 +36,7 @@ Start the Remix project:
 
 ### `Server Setup`
 
-### Configuration du serveur en node js
+### Node.js Server Setup
 
 - If you’ve chosen Node.js to configure the data server:
 
