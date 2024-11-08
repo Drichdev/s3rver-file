@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  s3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4568:4568"  # Le port local redirigé vers le port S3rver
+    volumes:
+      - ./data/s3-buckets:/app/s3-buckets  # Persiste les données des fichiers
