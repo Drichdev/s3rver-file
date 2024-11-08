@@ -1,6 +1,6 @@
-# Data Extraction with S3
+## Data Extraction with S3
 
-## System for Extracting Data from Excel and JSON Files using Remix.js and an S3 Server with AWS SDK
+### System for Extracting Data from Excel and JSON Files using Remix.js and an S3 Server with AWS SDK
 
 ### Clone the Project
 
@@ -68,7 +68,7 @@ Build the Docker images:
 
 ##
 
-- Launch the container:
+Launch the container:
 
 ##
 
