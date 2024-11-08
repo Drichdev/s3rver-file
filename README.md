@@ -12,7 +12,7 @@ To get started, clone the repository using the following command:
 
 ##
 
-### `Configuration de remix`
+### `Remix Setup`
 
 ### Install Dependencies
 
@@ -56,7 +56,7 @@ Start the server:
 
 ##
 
-### Configuration du serveur avec docker
+### `Docker Server Setup`
 
 - If you’ve opted to use Docker for configuring the data server:
 
