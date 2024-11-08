@@ -1,10 +1,6 @@
 ## Extration de données avec S3
 ### Systèmes de recupération des informations des fichiers excels et json avec remix js et serveur S3 avec aws-sdk
 ##
-<div align="center">
-  <img src="./img/result.jpg" alt="Images de resultat" style="border-radius: 10px;">
-</div>
-
 - git clone récupération du projet
 ##
     git clone [Lien du repo]
@@ -35,3 +31,6 @@
 ##
     docker-compose up -d
 ##
+<div align="center">
+  <img src="./img/result.jpg" alt="Images de resultat" style="border-radius: 10px;">
+</div>
