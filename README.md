@@ -10,6 +10,10 @@
 ##
     npm install
 ##
+- Lancer le projet
+##
+    npm run dev
+##
 ### `Configuration du serveur`
 ### Configuration du serveur en node js
 - Si vous avez choisi d'utilser node js pour la configuration comme serveur de donnée
